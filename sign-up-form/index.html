@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge_1</title>
+    <link rel="stylesheet" href="css/style.css">
+  <body>
+    <div class="container">
+        <form id="contact" action="method">
+            <h1>Sign up Form</h1>
+            <h3>fill in the form below and click the sign up button</h3>
+            <div class="row">
+                <!--first column-->
+                <div class="column">
+                    <fieldset>
+                        <label for="First_name">Type your First name</label>
+                        <input type="text" id="First name" 
+                        placeholder="your first name" required>
+                    </fieldset>
+<fieldset>
+    <label for="last_name">Type your last name</label>
+    <input type="text" id="Last name" placeholder="your last name" required focus>
+</fieldset>
+<fieldset>
+    <label for="mother's maiden name">Type your mother's maiden name</label>
+    <input type="text" id="mother's maiden name" placeholder="your mother's maiden name">
+</fieldset>
+<fieldset>
+    <label for="Email">Enter your Email</label>
+    <input type="text" id="Email" placeholder="your email" required>
+</fieldset>
+<fieldset>
+    <label for="password"> Type your password</label>
+    <input type="password" id="password">
+</fieldset>
+<fieldset>
+    <label for="password">Confirm your password</label>
+    <input type="password" id="password" required>
+</fieldset>
+<fieldset>
+    <label for="Date of birth">Type your DOB</label>
+    <input type="text" id="Date of birth" required="(this. type = 'date')">
+</fieldset>
+<!--adding all country code-->
+<fieldset>
+    <label for="phone number">Type your phone number</label>
+    <input type="text" id="phone number">
+</fieldset>
+                </div>
+                <!--second column-->
+                <div class="column">
+                    <fieldset>
+                        <div class="radio">
+                            <label for="GENDER">GENDER</label>
+    <p><input type="radio" id="gender" value="male" name="gender">
+    <label for="male">Male</label>
+    </p>
+     </div>
+     <div class="radio">
+        <label for="GENDER">GENDER</label>
+<p><input type="radio" id="gender" value="female" name="gender">
+<label for="female">Female</label>
+</p>
+</div>
+                    </fieldset>
+                    <!--submit button-->
+<fieldset>
+    <button type="submit" id="button"> submit Now</button>
+</fieldset>
+        </form>
+    </div>
+  </body>
+</html>
